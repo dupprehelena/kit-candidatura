@@ -17,7 +17,9 @@ O kit não inventa nada: o que não estiver no seu CV ou no seu LinkedIn vira pe
 
 ## Como usar
 
-1. Baixe ou clone esta pasta e abra no Claude Code.
+1. No GitHub, clique em **Use this template → Create a new repository**, marque **Private**
+   e clone o repositório novo. Ele vai guardar seu CV, telefone e candidaturas: **nunca deixe
+   público**. Sem GitHub, baixe o zip (**Code → Download ZIP**). Depois, abra a pasta no Claude Code.
 2. Primeira vez: digite `/cv-base`. Tenha à mão o seu CV atual em PDF e o PDF do seu LinkedIn.
 3. Para cada vaga: cole o link ou o texto da vaga, ou digite `/candidatura`.
 
