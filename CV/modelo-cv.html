@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+  MODELO de CV no formato que robô de ATS lê sem embaralhar: coluna única, headings padrão,
+  data colada no cargo, links clicáveis. Os dados abaixo são FAKE: servem só de estrutura.
+  A skill /cv-base copia este arquivo para cv-pt.html (ou cv-en.html) e troca o conteúdo.
+
+  Headings que o cobertura.py reconhece como PROVA (experiência datada e com empresa):
+    PT: EXPERIÊNCIA PROFISSIONAL · EXPERIÊNCIA DOCENTE · EXPERIÊNCIA ANTERIOR
+    EN: WORK EXPERIENCE · TEACHING EXPERIENCE · EARLIER EXPERIENCE
+  Em inglês, os outros headings são: PROFESSIONAL SUMMARY, SKILLS, EDUCATION, LANGUAGES.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>[MOCK] Aluna Teste — CV</title>
+<style>
+:root { color-scheme: light }
+@page { size: A4; margin: 12mm 14mm }
+body { font: 10pt/1.35 Arial, Helvetica, sans-serif; color: #000; background: #fff; margin: 0 }
+h1 { font-size: 20pt; margin: 0 0 2mm; letter-spacing: .01em }
+h2 { font-size: 10.5pt; margin: 4.5mm 0 1.5mm; padding-bottom: 1mm;
+     border-bottom: 1px solid #000; text-transform: uppercase; letter-spacing: .06em }
+h3 { font-size: 10.5pt; margin: 3mm 0 0 }
+h3, .meta, .dates { break-after: avoid }
+p  { margin: 0 0 1mm }
+ul { margin: 1mm 0 0; padding-left: 5mm }
+li { margin-bottom: 1mm; break-inside: avoid }
+a  { color: #000 }
+.headline { font-size: 10pt; margin-bottom: 2mm }
+.contact  { font-size: 10pt; margin-bottom: 3mm }
+.meta, .dates { font-size: 9.5pt }
+.dates { color: #222 }
+</style>
+</head>
+<body>
+<h1>[MOCK] Aluna Teste</h1>
+<p class="headline">Product Designer Pleno | Design System e Pesquisa com Usuários | Produtos financeiros</p>
+<p class="contact">São Paulo, Brasil | +55 11 90000-0000 | <a href="mailto:aluna.teste@example.com">aluna.teste@example.com</a><br>Portfólio: <a href="https://example.com">example.com</a> | <a href="https://linkedin.com/in/example">linkedin.com/in/example</a></p>
+
+<h2>RESUMO PROFISSIONAL</h2>
+<p>Três a cinco linhas: cargo atual, anos de experiência, o tipo de produto em que trabalha e o que entrega de diferente. Sem adjetivo que não se prova ("apaixonada", "inovadora").</p>
+
+<h2>EXPERIÊNCIA PROFISSIONAL</h2>
+<h3>Product Designer Pleno</h3>
+<p class="meta">[MOCK] Empresa Um, fintech, São Paulo</p>
+<p class="dates">03/2023 - atual</p>
+<ul>
+  <li>Verbo de ação + o que fez + o resultado. Número só se for real e defensável em entrevista.</li>
+  <li>Redesenhei o fluxo de abertura de conta com <strong>pesquisa com usuários</strong> e testes de usabilidade.</li>
+</ul>
+
+<h3>Product Designer Júnior</h3>
+<p class="meta">[MOCK] Empresa Dois, varejo digital, remoto</p>
+<p class="dates">01/2021 - 02/2023</p>
+<ul>
+  <li>Mantive a biblioteca de componentes do <strong>design system</strong> no Figma.</li>
+</ul>
+
+<h2>COMPETÊNCIAS</h2>
+<p>Figma, prototipação, pesquisa com usuários, design system, acessibilidade (WCAG)</p>
+
+<h2>FORMAÇÃO ACADÊMICA</h2>
+<h3>Bacharelado em Design</h3>
+<p class="meta">[MOCK] Universidade Teste</p>
+<p class="dates">2016 - 2020</p>
+
+<h2>IDIOMAS</h2>
+<p>Português (nativo) | Inglês (avançado)</p>
+</body>
+</html>
