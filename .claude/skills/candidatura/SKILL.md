@@ -57,7 +57,8 @@ texto original não dá para reauditar a decisão depois.
    Colar a tabela em `vaga.md` e, para cada obrigatória, dizer qual bullet a prova:
    - ✅ **provada** — existe bullet com o termo ou sinônimo direto
    - 🔁 **implícita** — a experiência existe e o CV usa outra palavra → trocar o termo é
-     legítimo, e é aqui que está o ganho real
+     legítimo, e é aqui que está o ganho real. Só vale quando o bullet já descreve a prática
+     com outras palavras; se é só parecida ou vizinha, é ❌ e vira pergunta
    - ❌ **ausente** — não está no CV → reportar como lacuna, e perguntar se a pessoa tem
 6. **Ajustar numa cópia só da vaga.** Copiar o CV base para `CANDIDATURAS/AAAA-MM-DD-empresa/cv.html`
    e mexer só nela, apenas nos pontos 🔁 e nos ❌ que a pessoa confirmou que tem. Listar os
