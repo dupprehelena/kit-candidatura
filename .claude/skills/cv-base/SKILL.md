@@ -21,7 +21,8 @@ sem número fica sem número: sugerir que ela procure o dado é bom, chutar o da
 
 1. **Pedir o material.** O CV atual em PDF (DOCX → pedir para exportar em PDF) e o LinkedIn
    (no perfil, *Mais → Salvar como PDF*, ou o texto colado). Não acessar o LinkedIn por
-   script: o PDF ou o texto colado bastam.
+   script: o PDF ou o texto colado bastam. **O LinkedIn é obrigatório**: é com ele que o
+   recrutador cruza o CV. Sem ele, não montar nada: explicar como exportar e esperar.
 2. **Escrever `DOCS/perfil.md`.** Nome como aparece no LinkedIn, cidade, telefone com DDI,
    e-mail, links (portfólio, LinkedIn), e uma tabela de cargos: cargo, empresa, mês/ano de
    início e de saída. Formação e idiomas. Data ou cargo diferente entre o CV e o LinkedIn →
@@ -30,7 +31,11 @@ sem número fica sem número: sugerir que ela procure o dado é bom, chutar o da
 3. **Montar `CV/cv-pt.html`** a partir de `CV/modelo-cv.html`: copiar o modelo e trocar o
    conteúdo, mantendo a estrutura (coluna única, `h2` com os headings do modelo, `h3` para o
    cargo, `.meta` para empresa, `.dates` para o período). Nada de tabela, coluna, ícone ou
-   imagem: é isso que embaralha a leitura do robô.
+   imagem: é isso que embaralha a leitura do robô. Apagar o comentário de topo do modelo
+   (o que diz que os dados são fake).
+   - Anos de experiência no resumo: calcular pelas datas do `perfil.md` e dizer o que está
+     sendo contado. Nunca somar cargos diferentes sob o título atual (anos de UI Designer
+     não viram anos de Product Designer).
    - Bullet: verbo de ação, o que fez e o resultado, com o resultado só se a pessoa tiver o dado.
    - Habilidade só entra em COMPETÊNCIAS se aparece também em algum bullet; se não aparece,
      perguntar onde ela usou.

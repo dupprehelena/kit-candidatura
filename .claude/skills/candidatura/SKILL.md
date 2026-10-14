@@ -56,11 +56,11 @@ texto original não dá para reauditar a decisão depois.
 
    Colar a tabela em `vaga.md` e, para cada obrigatória, dizer qual bullet a prova:
    - ✅ **provada** — existe bullet com o termo ou sinônimo direto
-   - ⚠️ **implícita** — a experiência existe e o CV usa outra palavra → trocar o termo é
+   - 🔁 **implícita** — a experiência existe e o CV usa outra palavra → trocar o termo é
      legítimo, e é aqui que está o ganho real
    - ❌ **ausente** — não está no CV → reportar como lacuna, e perguntar se a pessoa tem
 6. **Ajustar numa cópia só da vaga.** Copiar o CV base para `CANDIDATURAS/AAAA-MM-DD-empresa/cv.html`
-   e mexer só nela, apenas nos pontos ⚠️ e nos ❌ que a pessoa confirmou que tem. Listar os
+   e mexer só nela, apenas nos pontos 🔁 e nos ❌ que a pessoa confirmou que tem. Listar os
    ajustes em `vaga.md`. O CV base não se toca neste passo.
 7. **Gerar o PDF e medir de novo.**
 
@@ -76,7 +76,9 @@ texto original não dá para reauditar a decisão depois.
 8. **Carta e mensagem ao recrutador.** Cada afirmação sobre a carreira aponta para um bullet
    do CV ajustado: carta é onde a invenção passa despercebida, porque ninguém confere prosa.
    Afirmação sobre a empresa (número, prêmio, lançamento) só com fonte no site da própria
-   empresa ou na vaga; sem fonte, sai do texto. Escrita direta, sem clichê de IA ("apaixonada
+   empresa ou na vaga; sem fonte, sai do texto. Motivação e intenção ("quero trabalhar com
+   X", "me interessa Y") são da pessoa: perguntar ou marcar `[CONFIRMAR]`, nunca deduzir do
+   CV ou da vaga. Anos de experiência: os mesmos do resumo do CV. Escrita direta, sem clichê de IA ("apaixonada
    por", "no cenário atual", "não apenas X, mas Y", lista de três adjetivos). Carta com até
    4 parágrafos curtos; mensagem de LinkedIn com até 5 linhas.
 9. **Respostas do formulário.** Os campos que Gupy e LinkedIn costumam pedir: "por que essa
