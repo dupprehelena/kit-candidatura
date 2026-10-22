@@ -61,8 +61,11 @@ texto original não dá para reauditar a decisão depois.
      com outras palavras; se é só parecida ou vizinha, é ❌ e vira pergunta
    - ❌ **ausente** — não está no CV → reportar como lacuna, e perguntar se a pessoa tem
 6. **Ajustar numa cópia só da vaga.** Copiar o CV base para `CANDIDATURAS/AAAA-MM-DD-empresa/cv.html`
-   e mexer só nela, apenas nos pontos 🔁 e nos ❌ que a pessoa confirmou que tem. Listar os
-   ajustes em `vaga.md`. O CV base não se toca neste passo.
+   e mexer só nela, apenas nos pontos 🔁 e nos ❌ que a pessoa confirmou que tem.
+   Ponto 🔁 entra na cópia sem esperar: o CV passa a trazer o termo exato que a vaga pede.
+   Cada troca fica listada em `vaga.md` (antes → depois, e o bullet que prova) para a pessoa
+   conferir antes de enviar. Ponto ❌ sem confirmação nunca entra: continua lacuna e pergunta.
+   O CV base não se toca neste passo.
 7. **Gerar o PDF e medir de novo.**
 
    ```
@@ -82,6 +85,18 @@ texto original não dá para reauditar a decisão depois.
    CV ou da vaga. Anos de experiência: os mesmos do resumo do CV. Escrita direta, sem clichê de IA ("apaixonada
    por", "no cenário atual", "não apenas X, mas Y", lista de três adjetivos). Carta com até
    4 parágrafos curtos; mensagem de LinkedIn com até 5 linhas.
+
+   A mensagem ao recrutador não pode ser molde. Quem recebe 150 mensagens por vaga lê o
+   esqueleto, e esqueleto repetido some na pilha.
+   - **A linha do meio liga uma coisa específica da vaga ou do produto a uma prova da pessoa.**
+     Primeiro o que a empresa está fazendo ou pedindo, depois o que a pessoa já fez que
+     responde a isso. O fato sobre a empresa sai do texto da vaga ou do site da própria
+     empresa; fato sem fonte não entra.
+   - **A pergunta final varia** de vaga para vaga, e continua curta e pouco invasiva: pede
+     só quem ela pode adicionar ou com quem conversar, sem pedir repasse nem apresentação.
+   - **Teste da troca:** trocar o nome da empresa por outra do mesmo setor. Se a mensagem
+     continua funcionando, é molde e volta para a linha do meio. Antes de entregar, comparar
+     com as mensagens das últimas `carta.md` e não repetir frase inteira.
 9. **Respostas do formulário.** Os campos que Gupy e LinkedIn costumam pedir: "por que essa
    vaga", pretensão, disponibilidade, perguntas de triagem. Escrever em `carta.md` para
    reuso; o que depende de decisão da pessoa (salário, data de início) fica em branco, com a
@@ -100,7 +115,8 @@ texto original não dá para reauditar a decisão depois.
 
 ## O que esta skill não faz
 
-- Enviar a candidatura. Preencher formulário no navegador só se a pessoa pedir, e mesmo
-  assim sem tocar na autodeclaração (gênero, raça/cor, PcD, orientação) e sem clicar no
+- Enviar a candidatura. Preencher formulário no navegador só se a pessoa pedir, e com um
+  OK dela por vaga: antes de abrir o formulário, mostrar a vaga, o link e o que vai entrar
+  (o CV anexo e os campos de `carta.md`), e esperar o sim. Mesmo assim, sem tocar na autodeclaração (gênero, raça/cor, PcD, orientação) e sem clicar no
   botão final de envio, que é sempre dela. Login e captcha também são dela.
 - Preparo de entrevista.
